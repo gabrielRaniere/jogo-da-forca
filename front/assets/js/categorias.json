@@ -1,0 +1,46 @@
+[
+    {
+        "animal": [
+            "onça", "leopardo", "cachorro", "gato", "falcão", "peixe",
+            "exponja", "minhoca", "formiga", "aranha", "cobra", "beija flor", 
+            "arara", "macaco", "sapo", "camundongo", "rato"
+        ]
+    },
+    {
+        "objeto": [
+            "colher", "ferro de passar", "garfo", "livro", "caneta", "mouse",
+            "teclado", "fone de ouvido", "chapel", "cueca", "camisa", "dado", 
+            "garrafa", "controle remoto", "perfume"
+        ]
+    },
+    {
+        "transporte": [
+            "carro", "bicicleta", "motocicleta", "barco", "canoa", "navio", 
+            "aviao", "planador", "helicoptero", "skate", "patinete", "carroça",
+            "perna"
+        ]
+    },
+    {
+        "comida": [
+            "batata frita", "feijão", "arroz", "cuscuz", "macarrao", "batata doce", 
+            "carne", "frango", "porco", "peixada", "bolacha", "coxinha", "pastel", 
+            "refrigerante", "suco", "uva", "banana", "aveia em flocos"
+        ]
+    },
+    {
+        "nome": [
+            "gabriel", "Marta", "Elayne", "Junior", "Raniere", "marcos", "emmanuel",
+            "pedro", "sofia", "camila", "caio", "clara", "amanda", "ana", "maria", 
+            "rafael", "tiago", "raquel", "paula", "milena", "claudio", "helena"
+        ]
+    },
+    {
+        "filmes" : [
+            "O Poderoso Chefao", "O Magico de Oz", "A Lista de Schindler", "Batman",
+            "O Senhor dos Aneis", "De Volta para o Futuro", "Toy Story ", "Matrix",
+            "Avatar", "A Bela e a Fera", "Rocky um Lutador"
+        ]
+    }
+]
+
+

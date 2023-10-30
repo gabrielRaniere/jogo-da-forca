@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container-game">
+        <div class="forca">
+            <img src="./assets/imgs/forca.png" alt="forca" class="img-forca">
+        </div>
+
+        <div class="palavra-secreta">
+        </div>
+
+        <div class="teclas">
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+            <button>Ç</button>
+            <button>D</button>
+            <button>E</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>I</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+            <button>M</button>
+            <button>N</button>
+            <button>O</button>
+            <button>P</button>
+            <button>Q</button>
+            <button>R</button>
+            <button>S</button>
+            <button>T</button>
+            <button>U</button>
+            <button>V</button>
+            <button>W</button>
+            <button>X</button>
+            <button>Y</button>
+            <button>Z</button>
+        </div>
+
+        <div class="categorys">
+            ANIMAL
+        </div>
+
+        <div class="controller-buttons">
+            <i class='bx bxs-plus-circle' style="display: none;"></i>
+            <i class='bx bx-pause-circle'></i>
+            <i class='bx bxs-right-arrow' style="font-size: 40px; margin-left: 3px; display: none;"></i>
+            <i class='bx bx-refresh '></i>
+        </div>
+        
+
+        <!--LOSEGAME--> 
+        <section class="gameover">
+            <div class="gameover-content">
+                <h1>GAME OVER</h1>
+                <div class="correct-word">
+                    <h2>A palavra correta :</h2>
+                    <p class="right-word">carroça</p>
+                </div>
+
+                <button class="restart-btn">jogar novamente</button>
+            </div>
+        </section>
+
+
+        <!--Append Word-->
+
+        <section class="append-shaddow">
+            <div class="append-container">
+                <i class='bx bx-x'></i>
+                <h1>ADICIONAR PALAVRA</h1>
+                <form action="#">
+                    <input type="text"  id="categoria-input" placeholder="CATEGORIA">
+                    <input type="text" id="palavra-input" placeholder="PALAVRA">
+                    <button class="append-word">ADICIONAR</button>
+                </form>
+            </div>
+        </section>
+
+
+        <p class="mode">modo automático</p>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
